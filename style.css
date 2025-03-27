@@ -1,0 +1,175 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light cream background */
+    color: #333;
+}
+
+h2 {
+    color: #0766A1; /* Modern blue color */
+}
+
+h1 {
+    color: white; /* Color of headers in the header section */
+}
+
+a {
+    color: #0766A1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: #0766A1;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.homebutton svg {
+    width: 24px; /* Logo size reduced */
+    height: 24px; /* Logo size reduced */
+    vertical-align: middle;
+}
+
+/* Main Content */
+main {
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Video container */
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.video-container iframe, .video-container video {
+    width: 100%;
+    max-width: 800px;  /* Limite de largeur de la vidéo */
+    height: 450px; /* Taille ajustée de la vidéo */
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #0766A1;
+    color: white;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Person section for About Us */
+.person-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.person {
+    flex: 1;
+    text-align: center;
+    background-color: #fff;
+    padding: 1rem;
+    border: 2px solid #0766A1;
+    border-radius: 8px;
+}
+
+.person img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.person h3 {
+    margin: 0.5rem 0;
+}
+
+.person p {
+    margin: 0.5rem 0;
+    max-width: 900px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.img1 svg {
+    width: 24px; /* Logo size reduced */
+    height: 24px; /* Logo size reduced */
+    vertical-align: middle;
+}
+li1 {
+    background-color: white;
+    color: #0766A1;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+li1 a {
+    color: #0766A1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li1 a:visited {
+    color: #0766A1;
+}
+
+li1:hover {
+    background-color: #f0f0f0;
+}
+li {
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
