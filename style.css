@@ -135,15 +135,18 @@ footer p {
 
 .person p {
     margin: 0.5rem 0;
-    max-width: 900px;
-    height: auto;
-    border-radius: 8px;
+}
+
+.img svg {
+    width: 24px; /* Logo size reduced */
+    height: 24px; /* Logo size reduced */
+    vertical-align: left;
 }
 
 .img1 svg {
     width: 24px; /* Logo size reduced */
     height: 24px; /* Logo size reduced */
-    vertical-align: middle;
+    vertical-align: left;
 }
 li1 {
     background-color: white;
